@@ -2802,7 +2802,7 @@ Beauty Salon Css
 .gallery__list__img{
   width: 100%;
   justify-content: center;
-  margin: 2.5rem auto;
+  margin: 0.5rem auto;
   position: relative;
 }
 .gallery__img img{
@@ -2815,6 +2815,10 @@ Beauty Salon Css
 }
 .gallery__content button{
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #AF7FAB;
+  margin-bottom: 10px;
 }
 
 .section__title{
@@ -2829,28 +2833,13 @@ Beauty Salon Css
     color: #AF7FAB;
     margin-top: 20px;
 }
-.section__title span{
-    font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    color: #151515;
-    padding: 5px 5px;
-}
 
-.gallery-button {
-  display: flex;
-  align-items: center;
-  background-color: #AF7FAB;
-}
+
 
 @media only screen and (max-width: 767px) {
   .section__title h1{
     font-size: 2.5rem;
     line-height: 2.5rem;
-}
-.section__title span{
-    font-size: 0.5rem;
-    line-height: 1.5rem;
 }
 
 .gallery-button {
