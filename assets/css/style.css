@@ -2098,7 +2098,7 @@ img.mfp-img {
 }
 @media only screen and (max-width: 767px) {
   .hero-content h4 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 .hero-content h1 {
@@ -2845,6 +2845,8 @@ Beauty Salon Css
 .gallery-button {
   font-size: 15px;
 }
+
+
 }
 
 /*--
@@ -3477,6 +3479,22 @@ input[type=number] {
 /*--
     12. Footer Css
 ----------------------*/
+/* FOOTER */
+.footer-facebook {
+  background-color: #3b5998 ;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.footer-instagram {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 6px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
 /* CopyiRight Style */
 .copyright {
   background: #333;
