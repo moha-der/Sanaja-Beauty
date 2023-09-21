@@ -2831,9 +2831,10 @@ Beauty Salon Css
 }
 .section__title span{
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
     color: #151515;
+    padding: 5px 5px;
 }
 
 .gallery-button {
@@ -2841,6 +2842,22 @@ Beauty Salon Css
   align-items: center;
   background-color: #AF7FAB;
 }
+
+@media only screen and (max-width: 767px) {
+  .section__title h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.section__title span{
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.gallery-button {
+  font-size: 15px;
+}
+}
+
 /*--
     07. Team Style Css
 ----------------------------*/
