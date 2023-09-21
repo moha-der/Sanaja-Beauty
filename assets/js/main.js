@@ -5,6 +5,22 @@ $.fn.elExists = function() {
     return this.length > 0;
 };
     
+$('#unitedKingdom').click(function () {
+    $('#unitedKingdom').addClass('active');
+    $('#norway').removeClass('active');
+    console.log('pulso');
+    window.location.href ='index.html';
+})
+$('#norway').click(function () {
+    $('#norway').addClass('active');
+    $('#unitedKingdom').removeClass('active');
+    $( "#lang1" ).toggle( "slow", function() {
+    });
+    $('.select-lang').attr('style', 'height:30px');
+    window.location.href ='norway/index.html';
+});
+
+
 
 /*--
 Menu Sticky
@@ -43,6 +59,15 @@ function sidebarMainmenu() {
     });
 };
 sidebarMainmenu();
+
+function translate() {
+    var unitedkingdom = $('.hero-content h4');
+    unitedkingdom.on('click', function() {
+        console.log('hola');
+    });
+};
+
+translate();
     
 /*-- 
     One PageNav Scrolling

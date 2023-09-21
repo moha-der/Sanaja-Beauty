@@ -2085,71 +2085,13 @@ img.mfp-img {
 .salon-name {
   color: #3E5461;
 }
-/*
-.btn-hero{
-  width: 240px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: #00ADEF;
-  color: #ffffff;
-  border: 1px solid#00ADEF;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 1rem;
-  padding: 10px 20px;
-  outline: none;
-  cursor: pointer;
-  transition: all 400ms ease;
-}
-.btn-hero:hover{
-  background-color: transparent;
-  color: #00ADEF;
-}
-.btn-hero__outline{
-  width: 280px;
-  background-color: transparent;
-  color:#00ADEF;
-  padding: 5px 10px 5px 0;
-  transition: all 400ms ease-in-out;
-  position: relative;
-}
-.btn-hero__outline::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 18%;
-  height: 100%;
-  background-color: #00ADEF;
-  border: 1px solid #00ADEF;
-  border-radius: 50px;
-  transition:  all 400ms ease-in-out;
-}
-.btn-hero__outline i{
-  margin-right: 1.5rem;
-  font-size: 1.5rem;
-  color: #ffffff;
-  z-index: 10;
-}
-.btn-hero__outline:hover::before{
-  width: 100%;
-  z-index: -1;
-}
-.btn-hero__outline:hover{
-  color: #ffffff;
-  z-index: 10;
-}*/
 @media only screen and (max-width: 767px) {
   .hero-content {
     margin-top: 0px;
   }
 }
 .hero-content h4 {
-  color: #AF7FAB;
+  color: #eb4e8f;
   font-family: "Cookie", cursive;
   font-size: 40px;
   margin-bottom: 20px;
@@ -2525,6 +2467,99 @@ img.mfp-img {
 .form-style-1 form input[type="submit"]:hover {
   background: #333;
 }
+
+/*--
+  Language
+  --*/
+#country-select {
+    
+    display: flex;
+    align-items: center;
+}
+.select-lang {
+    width: 80px;
+    height: 32px;
+    line-height: 22px;
+    position: relative;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+    overflow: hidden;
+    z-index: 100;
+}
+
+.select-lang > ::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+}
+.select-lang .options {
+    background: transparent !important;
+}
+.select-lang::after {
+    content: "▼";
+    font-size: 0.7em;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translate(0, -50%);
+    color: white;
+}
+
+.select-lang:hover::after {
+    top: 15%;
+    transform: translate(0, -15%);
+}
+
+.select-lang:hover {
+    overflow:visible;
+}
+.select-lang:hover .options .option {
+    padding: 0 0 5px 0;
+}
+.select-lang:hover .options .option:last-child {
+    padding: 0 0 0 0;
+}
+
+.select-lang:hover .options .option label {
+    display:inline-block;
+    cursor: pointer
+}
+
+.select-lang .options .option img {
+    width: 2.5rem;
+}
+
+.select-lang .options .option label {
+    display:none;
+}
+
+.select-lang .options .option input {
+    width:0;
+    height:0;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    float:left;
+    display:inline-block;
+    position: absolute;
+    visibility: hidden;
+}
+
+.select-lang .options .option input:checked + label {
+    display:block;
+    width:100%;
+}
+
+.select-lang:hover .options .option input + label {
+    display:block;
+}
+
+.language-dropdown {
+  margin:20px;
+}
+
+.dropdown-lang-areamun {
+  min-width: -10rem !important;
+}
+
 
 /*--
     05. About Css
