@@ -1841,7 +1841,7 @@ img.mfp-img {
 }
 .main-menu > ul > li:hover > a {
    /*
-  color: €theme-color;*/
+  color: $theme-color;*/
 }
 .main-menu > ul > li:hover > .sub-menu {
   opacity: 1;
