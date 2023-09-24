@@ -3477,6 +3477,12 @@ input[type=number] {
   justify-content: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .testimonial-slider-5 .testimonal-nav5.slick-slider {
+    padding: 0px 20px;
+  }
+}
+
 
 /*
   pricing
