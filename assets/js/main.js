@@ -147,17 +147,19 @@ $('.testimonal-nav5').slick({
     focusOnSelect: true,
     centerPadding: '0',
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
 
     responsive: [{
             breakpoint: 769,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 3
             }
         },
         {
             breakpoint: 577,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 3
             }
         },
     ]
@@ -193,13 +195,13 @@ $('.post-carousel-active-5').slick({
         {
             breakpoint: 769,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 2
             }
         },
         {
             breakpoint: 576,
             settings: {
-                slidesToShow: 1
+                slidesToShow: 2
             }
         }
     ]
