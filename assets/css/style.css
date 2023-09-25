@@ -2982,6 +2982,10 @@ Beauty Salon Css
 .team-6.beauty-team .team-hover-action .hover-action .social-network li a {
   color: #ffffff;
 }
+.team-center {
+  display: flex;
+  justify-content: center;
+}
 
 .social-net-2 {
   margin-bottom: 8px;
