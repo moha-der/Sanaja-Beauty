@@ -3395,7 +3395,7 @@ input[type=number] {
     10. Testimonial Css
 -------------------------------------*/
 .bg_image--03 {
-  background-image: url(../images/bg/bg-image-02.jpg);
+  background-image: url(../images/bg/bg-5.jpeg);
   /*background-color: #A7D6D4;*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -3516,6 +3516,13 @@ input[type=number] {
     margin-top: -10px;
     position: relative;
     margin: 10px 0;
+}
+
+.img-bonus {
+  display: flex;
+  margin: auto;
+  width: 360px;
+  height: 240px;
 }
 /*--
     12. Footer Css

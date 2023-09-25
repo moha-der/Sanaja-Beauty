@@ -149,7 +149,7 @@ $('.testimonal-nav5').slick({
     centerPadding: '0',
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
 
     responsive: [{
             breakpoint: 769,
