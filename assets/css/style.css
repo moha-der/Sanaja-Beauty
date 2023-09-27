@@ -36,6 +36,7 @@
 
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -2094,7 +2095,7 @@ img.mfp-img {
     margin-top: 0px;
   }
   .bg-hero {
-    background-image: url(../images/hero/hero-movil.jpeg)
+    background-image: url(../images/hero/hero-6.jpeg)
   }
 }
 .hero-content h4 {
