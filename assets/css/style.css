@@ -2082,12 +2082,19 @@ img.mfp-img {
   color: #D8B6B6;
 }
 
+.bg-hero {
+  background-image: url(../images/hero/hero-2.jpeg)
+}
+
 .salon-name {
   color: #3E5461;
 }
 @media only screen and (max-width: 767px) {
   .hero-content {
     margin-top: 0px;
+  }
+  .bg-hero {
+    background-image: url(../images/hero/hero-70.jpeg)
   }
 }
 .hero-content h4 {
@@ -2822,6 +2829,10 @@ Beauty Salon Css
   margin-bottom: 10px;
 }
 
+.gallery__content  {
+  padding-bottom: 20px;
+}
+
 .section__title{
     margin: 0 auto;
     text-align: center;
@@ -3524,6 +3535,36 @@ input[type=number] {
   width: 360px;
   height: 240px;
 }
+
+/*
+  Google Maps
+  */
+
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    margin-bottom: 30px;
+}
+
+.visit-us h4{
+  font-family: "Cookie", cursive;
+  color: #3E5461;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
 /*--
     12. Footer Css
 ----------------------*/
