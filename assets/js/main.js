@@ -174,6 +174,8 @@ $('.testimonial-for5').slick({
     asNavFor: '.testimonal-nav5'
 });
 
+
+
   
     /*-- 
     Post Carousel

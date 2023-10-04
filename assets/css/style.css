@@ -171,32 +171,6 @@ a:focus {
   padding: 0 !important;
 }
 
-.boxed-layout .is-sticky {
-  max-width: 1400px !important;
-  margin: auto !important;
-  right: 0;
-  left: 0;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .boxed-layout .is-sticky {
-    max-width: 1280px !important;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .boxed-layout .is-sticky {
-    max-width: 980px !important;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .boxed-layout .is-sticky {
-    max-width: 730px !important;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .boxed-layout .is-sticky {
-    max-width: 560px !important;
-  }
-}
 
 .is-sticky .header-top {
   display: none;
@@ -2097,6 +2071,7 @@ img.mfp-img {
   .bg-hero {
     background-image: url(../images/hero/hero-logo-sanaja.jpeg)
   }
+
 }
 .hero-content h4 {
   color: #eb4e8f;
@@ -3595,5 +3570,15 @@ input[type=number] {
   font-size: 14px;
   margin: 10px 0;
 }
+
+
+
+@media screen and (max-width: 767px) {
+  .hero-buttons {
+    margin-top: 35vh;
+  }
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
